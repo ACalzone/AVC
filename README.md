@@ -1,3 +1,3 @@
 # AVC
-AVC stuff /n
+AVC stuff
 IP Address: 10.140.101.103
