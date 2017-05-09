@@ -22,7 +22,7 @@ Communication tool: Facebook
 - Sherif: Hardware support (CAD designing components)   
 
 ## Team Objectives:  
-- [ ] Write plan  
+- [x] Write plan
 - [ ] Get robot made and moving  
 - [ ] Robot can complete quadrant 1  
 - [ ] Robot can complete quadrant 2  
