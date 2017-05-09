@@ -30,5 +30,3 @@ Communication tool: Facebook
 - [ ] Complete progress report
 - [ ] Robot can complete quadrant 4
 - [ ] Complete final report  
-
-Raspberry Pi IP address for remote access: **10.140.101.103**  
