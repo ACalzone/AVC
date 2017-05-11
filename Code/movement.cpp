@@ -5,8 +5,8 @@
 
 void move(double speed){
 	init();
-	set_motor(1, 255 * speed);
+	set_motor(1, speed);
 	sleep1(0,500000);
-	set_motor(2, 255 * speed);
+	set_motor(2, speed);
 	sleep1(0, 500000);
 }
