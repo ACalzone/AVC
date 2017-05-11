@@ -9,5 +9,4 @@ void move(double speed){
 	sleep1(0,500000);
 	set_motor(2, 255 * speed);
 	sleep1(0, 500000);
-	return 0;
 }
