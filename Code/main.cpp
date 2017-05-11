@@ -29,7 +29,27 @@ int main {
             vRight = 70 - sum;
         }
         printf("sum = %f nwp = %d\n", sum, nwp);
-        
+        set_motor(1, vRight);
+        sleep1(0, 25000);
+        set_motor(2, vLeft);
+        sleep1(0, 25000);
+        while(true) {
+            int adc_reading = read_analog(0);
+            int threshold; //placeholder variable, should remove once we know how much the value for the sensor will be when the robot is too close to the wall
+            if(adc_reading <= threshold) {
+                stop(0);
+                /*Add the stuff to check/open the gate
+                if(no gate) {
+                    set_motor(1, Speed to be determined after testing);
+                    sleep1(time to be determined after testing);
+                    stop(0);
+                }*/
+                set_motor(1, vRight);
+                sleep1(0, 25000);
+                set_motor(2, vLeft);
+                sleep1(0, 25000);
+            }
+        }
     }
     return 0;
 }
