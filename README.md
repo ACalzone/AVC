@@ -23,7 +23,7 @@ Communication tool: Facebook
 
 ## Team Objectives:  
 - [x] Write plan
-- [ ] Get robot made and moving  
+- [x] Get robot made and moving  
 - [ ] Robot can complete quadrant 1  
 - [ ] Robot can complete quadrant 2  
 - [ ] Robot can complete quadrant 3
