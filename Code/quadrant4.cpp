@@ -18,7 +18,7 @@ int main {
         else {
            set_motor(1, 0);
            set_motor(2, 0);
-           sleep1(5, 0); //so it can wait for the gate to open
+           sleep1(6, 50000); //so it can wait for the gate to open
            sensor = read_analog(0);
            if(sensor > threshold_wall) {
              set_motor(1, 30);
