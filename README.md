@@ -24,9 +24,9 @@ Communication tool: Facebook
 ## Team Objectives:  
 - [x] Write plan
 - [x] Get robot made and moving  
-- [ ] Robot can complete quadrant 1  
-- [ ] Robot can complete quadrant 2  
-- [ ] Robot can complete quadrant 3
-- [ ] Complete progress report
+- [x] Robot can complete quadrant 1  
+- [x] Robot can complete quadrant 2  
+- [x] Robot can complete quadrant 3
+- [x] Complete progress report
 - [ ] Robot can complete quadrant 4
 - [ ] Complete final report  
